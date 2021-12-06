@@ -5,6 +5,7 @@ require("console.table");
 
 
 
+
 function initializeTracker() {
     const logoText = logo({ name: "Employee Manager" }).render();
   
