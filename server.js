@@ -16,10 +16,10 @@ function selectQuestion() {
                   'View All Departments',
                   'View All Roles',
                   'View All Employees',
-                  'Add A Department',
-                  'Add A Role',
-                  'Add An Employee',
-                  'Update An Employee Role',
+                  'Add New Department',
+                  'Add New Role',
+                  'Add New Employee',
+                  'Update Employee Role',
                   'Exit'
               ]
           }
@@ -35,13 +35,13 @@ function selectQuestion() {
               case 'View All Employees':
                   viewAllEmployees();
                   break;
-              case 'Add A Department':
+              case 'Add New Department':
                   addADepartment()
                   break;
-              case 'Add A Role':
+              case 'Add New Role':
                   addARole()
                   break;
-              case 'Add An Employee':
+              case 'Add New Employee':
                   addAnEmployee()
                   break;
               case 'Update An Employee Role':
