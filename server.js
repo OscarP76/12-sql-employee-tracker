@@ -208,7 +208,6 @@ function updateExistingRole() {
 }
 
 function exit() {
-    console.log('goodbye!!')
     return
 }
 
