@@ -75,8 +75,6 @@ function manageDepartment() {
 
 function manageRoles() {
 
-    console.log('these are the roles!!')
-
     db.query('SELECT * FROM role', (err, result) => {
         if (err) {
             console.log(err)
@@ -88,8 +86,6 @@ function manageRoles() {
 }
 
 function manageEmployees() {
-
-    console.log('these are the employees!!')
 
     db.query('SELECT * FROM employee', (err, result) => {
         if (err) {
@@ -201,7 +197,6 @@ function updateExistingRole() {
         message: 'what is the role id you would like to choose'
     }]).then(answer => {
         db.query('update employee set role_id = ? where id = ?', [answer.role_id, answer.employee_id], function (err, data) {
-            console.log('update an existing role!!')
             selectQuestion()
         })
     })
