@@ -35,5 +35,5 @@ function manageEmployees() {
 ```
 
 ## Links
-(Demo Video)[]
-(GitHub)[]
+<a href"https://youtu.be/0iSxZk2v6Fg">Demo Video</a>
+[GitHub](https://github.com/OscarP76/12-sql-employee-tracker)
